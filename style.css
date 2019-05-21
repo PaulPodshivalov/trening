@@ -1,0 +1,45 @@
+.header{
+    
+}
+.header>p{
+    font-size: 2.5em;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    
+}
+.header>p>span{
+    background-color: aqua;
+}
+.menu{
+    display: inline-block;
+    background-image: url(css_sprites_menu.png);
+    margin-left: 90vw;
+    width: 49px;
+    height: 50px;
+}
+.menu:hover{
+    display: inline-block;
+    background-image: url(css_sprites_menu.png);
+    margin-left: 90vw;
+    width: 49px;
+    height: 50px;
+    background-position: 50px 50px;
+}
+.menu p{
+    display: block;
+    width: 4.2vw;
+    font-size: 1em;
+    margin-left: -90vw;
+    border: 3px solid;
+    
+}
+.gluss{
+    margin-left: 80vw;
+}
+.gluss img{
+    width: 80px;
+    height: 80px;
+}
