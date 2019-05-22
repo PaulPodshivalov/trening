@@ -6,6 +6,7 @@
     
 }
 .header>p{
+    color: #6a6a69;
     font-size: 2.1em;
     font-family: sans-serif;
     font-weight: 800;
@@ -14,6 +15,7 @@
     word-spacing: 0px;
     margin-top: 142px;
     letter-spacing: 1.5px;
+    text-shadow: 2px 2px 12px #6a6a69;
     
 }
 .header>p>span{
@@ -75,3 +77,28 @@
     width: 70px;
     height: 70px;
 }
+.about{
+    background-color: #efeeec;
+    width: 75vw;
+    margin: auto;
+    height: 50em;
+    
+    padding-top: 0.1em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.about>h2{
+    margin-top: 3em;
+    font-size: 1.8em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-left: 32.5vw;
+   }
+.about>p{
+    font-family:serif;
+    margin-top: -1.3em;
+    margin-left: 21.5vw;
+    letter-spacing: 0.5px;
+    
+}
+
