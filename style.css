@@ -1,18 +1,19 @@
 .header{
     background-color: #e5e4e1;
-    width: 70vw;
+    width: 75vw;
     margin: auto;
+    height: 40em;
     
 }
 .header>p{
-    font-size: 2em;
+    font-size: 2.1em;
     font-family: sans-serif;
     font-weight: 800;
     text-align: center;
     text-transform: uppercase;
     word-spacing: 0px;
-    margin-top: 145px;
-    letter-spacing: 2.9px;
+    margin-top: 142px;
+    letter-spacing: 1.5px;
     
 }
 .header>p>span{
@@ -22,14 +23,14 @@
     display: inline-block;
     background-image: url(css_sprites_menu.png);
     margin-top: 40px;
-    margin-left: 62vw;
+    margin-left: 64.5vw;
     width: 49px;
     height: 50px;
 }
 .menu:hover{
     display: inline-block;
     background-image: url(css_sprites_menu.png);
-    margin-left: 62vw;
+    margin-left: 64.5vw;
     width: 49px;
     height: 50px;
     background-position: 50px 50px;
@@ -48,10 +49,10 @@
    
     
 }
-.bottom{
+.button{
     text-align: center;
-    width: 185px;
-    margin-top: 115px;
+    width: 184px;
+    margin-top: 111px;
     font-family: sans-serif;
     text-transform: uppercase;
     font-size: 0.8em;
@@ -59,15 +60,15 @@
     border: 1px solid;
     line-height: 3;
     font-weight: 600;
-    margin-left: 29vw;
+    margin-left: 31.5vw;
     
 }
-.bottom>a{
+.button>a{
     text-decoration: none;
     color: black;
 }
 .gluss{
-    margin-left: 55.5vw;
+    margin-left: 58vw;
     margin-top: -18px;
 }
 .gluss img{
