@@ -16,24 +16,31 @@
 .menu{
     display: inline-block;
     background-image: url(css_sprites_menu.png);
-    margin-left: 90vw;
+    margin-top: 40px;
+    margin-left: 76vw;
     width: 49px;
     height: 50px;
 }
 .menu:hover{
     display: inline-block;
     background-image: url(css_sprites_menu.png);
-    margin-left: 90vw;
+    margin-left: 76vw;
     width: 49px;
     height: 50px;
     background-position: 50px 50px;
 }
 .menu p{
+    font-family: sans-serif;
+    font-weight: 800;
     display: block;
-    width: 4.2vw;
-    font-size: 1em;
-    margin-left: -90vw;
-    border: 3px solid;
+    width: 5.3vw;
+    font-size: 0.9em;
+    margin-left: -56.6vw;
+    border: 4px solid;
+    text-align: center;
+    line-height: 2;
+    margin-top: 3px;
+   
     
 }
 .gluss{
