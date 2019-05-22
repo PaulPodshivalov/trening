@@ -1,13 +1,18 @@
 .header{
+    background-color: #e5e4e1;
+    width: 70vw;
+    margin: auto;
     
 }
 .header>p{
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: sans-serif;
     font-weight: 800;
     text-align: center;
     text-transform: uppercase;
-    word-spacing: 20px;
+    word-spacing: 0px;
+    margin-top: 145px;
+    letter-spacing: 2.9px;
     
 }
 .header>p>span{
@@ -17,14 +22,14 @@
     display: inline-block;
     background-image: url(css_sprites_menu.png);
     margin-top: 40px;
-    margin-left: 76vw;
+    margin-left: 62vw;
     width: 49px;
     height: 50px;
 }
 .menu:hover{
     display: inline-block;
     background-image: url(css_sprites_menu.png);
-    margin-left: 76vw;
+    margin-left: 62vw;
     width: 49px;
     height: 50px;
     background-position: 50px 50px;
@@ -43,10 +48,29 @@
    
     
 }
+.bottom{
+    text-align: center;
+    width: 185px;
+    margin-top: 115px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 2.5px;
+    border: 1px solid;
+    line-height: 3;
+    font-weight: 600;
+    margin-left: 29vw;
+    
+}
+.bottom>a{
+    text-decoration: none;
+    color: black;
+}
 .gluss{
-    margin-left: 80vw;
+    margin-left: 55.5vw;
+    margin-top: -18px;
 }
 .gluss img{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 }
